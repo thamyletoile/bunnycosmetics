@@ -61,11 +61,29 @@ height: 100vh;}
 *{margin: 0;
 padding: 0%;}    
 
-/* Fondo de mi archivo*/
-.background{ 
-    background-color: #F5D9E4;}
+/* Fondo de mi archivo + ANIMACION Y TRANSICIONES*/
 
-header{ 
+/*fondo degradado*/
+.background{ 
+background-image: radial-gradient(#F160D5, #A460F1) }
+
+/*Transicion*/
+.transicion
+{transition: all 2s}
+
+.transicion
+:hover
+{width 750px;
+    height: 300px;
+border-color: black;
+border-radius: 40px; }
+
+/*Transform*/
+
+.movimiento{ transform: translateX(-300px);}
+
+
+header
     background-color: black;}
 
 .backgroundbanner{ 
