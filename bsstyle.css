@@ -1,6 +1,6 @@
 /*RESPONSIVE DESIGN*/
 /*MEDIA QUERIES*/
-
+/*INDEX*/
 /*VERSION DESKTOP*/
 @media
 (min-width: 1024px) {
@@ -56,7 +56,7 @@ height: 100vh;}
 
 /*Margenes*/
 *{margin: 0;
-padding: 0%;}    
+    padding: 0%;}    
 
 /* Fondo de mi archivo + ANIMACION Y TRANSICIONES*/
 
@@ -64,7 +64,7 @@ padding: 0%;}
 .background{ 
 background:  #F5D9E4 }
 
-/*Transicion
+Transicion
 .transicion
 {transition: all 2s}
 
@@ -73,14 +73,14 @@ background:  #F5D9E4 }
 {width 750px;
     height: 300px;
 border-color: black;
-border-radius: 45px; }*/
+border-radius: 45px; }
 
 /*Transform
 
 .movimiento{ transform: translateX(-300px);}
 */  
 
-header
+header{
     background-color: black;}
 
 .backgroundbanner{ 
@@ -103,11 +103,11 @@ h3
     padding-right: 1%;}
 
 .iconosredes
-{width: 20px;
-height: 20px;
-padding-top: 2%;
-padding-bottom: 1%;
-padding-right: 0.5%;}
+{width: 3%;
+    height: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 1%;}
 
 .alineacioniconos
 {display : flex; 
@@ -140,12 +140,16 @@ padding-left: 5%;}
 /*BEAUTY SECTION*/
 .paddingpics1
 {max-width: 33%;
-margin-top: 20px;
 display: inline-block;}
 
 .paddingpics2
 {  max-width: 100%;
     display: inline-block;}
+
+/*PADDING FOR PRODUCTS*/
+.paddingpics3
+{width: 30%;}
+
 
 
 /*COLORS SECTION*/
@@ -167,6 +171,7 @@ width: 50%;}
 {background-color: black;
 padding-top: 20px;
 padding-left: 5px;
+padding-bottom: 20px;
  color:  #F844FA;
 font-weight: bold;} }
 
@@ -312,10 +317,12 @@ width: 50%;}
 {padding-bottom: 30px;}
 
 /*FOOTER*/
+
 .diseñopie
 {background-color: black;
 padding-top: 20px;
 padding-left: 5px;
+padding-bottom: 20px;
  color:  #F844FA;
 font-weight: bold;} }
 
@@ -337,7 +344,7 @@ grid-template-areas:
 "colors"
 "piepagina";}
 
-#beauty, #animals, #colors,  
+#beauty, #animals, #colors  
 {padding-top: 20px;
 padding-bottom: 20px;}
 
@@ -407,11 +414,11 @@ h3
     padding-right: 1%;}
 
 .iconosredes
-{width: 20px;
-height: 20px;
+{width: 25px;
+height: 40px;
 padding-top: 2%;
-padding-bottom: 1%;
-padding-right: 0.5%;}
+padding-bottom: 2%;
+padding-right: 1%;}
 
 .alineacioniconos
 {display : flex; 
@@ -443,7 +450,7 @@ padding-left: 5%;}
 
 /*BEAUTY SECTION*/
 .paddingpics1
-{max-width: 30%;
+{max-width: 30%;    
 margin-top: 20px;
 display: inline-block;}
 
@@ -462,11 +469,16 @@ display: inline-block;}
 {background-color: black;
 padding-top: 20px;
 padding-left: 5px;
- color:  #F844FA;
-font-weight: bold;}} 
+padding-bottom: 20px;
+ color:  #ee91d5ef;
+font-weight: bold;} 
 
 
-/*GRIDS + RESPONSIVE OUR COMPANY*/
+
+/*------------------------------
+OUR COMPANY
+--------------------------------*/
+/* ----- PRIMERO ----- */ 
 
 /*VERSION DESKTOP*/
 @media
@@ -484,11 +496,8 @@ grid-template-areas:
 "our story our story"
 "our location ourlocation"
 "academies academies"
-"piepagina piepagina";}
+"piepagina piepagina"}
 
-#beauty, #animals, #colors 
-{padding-top: 20px;
-padding-bottom: 20px;}
 
 /*Area Names*/
 header
@@ -510,14 +519,65 @@ nav
  {grid-area: piepagina;}
 
 
- #ourstory, #location, #academies , figure
+ #ourstory, #location, #academies
  {padding-top: 20px;
  padding-bottom: 20px;
 padding-right: 1%;
 padding-left: 1%;}
 
 
-/*GRIDS + RESPONSIVE PRODUCTS*/
+
+/*----- TERCERO -----*/
+
+/*VERSION MOBILE*/
+@media(max-width: 479px) {
+
+
+/*GRIDS INDEX*/
+#grid-area2
+{display: grid;
+
+/*BOCETO DE GRILLA*/
+grid-template-areas: 
+"encabezado"
+"menu"
+"our story"
+"our location"
+"academies"
+"piepagina";}
+
+
+/*Area Names*/
+header
+{grid-area: encabezado;}
+
+nav
+{grid-area: menu;}
+
+ #ourstory
+ {grid-area: ourstory;}
+
+ #location
+ {grid-area: location;}
+
+ #academies
+ {grid-area: academies;}
+
+ footer
+ {grid-area: piepagina;}
+
+
+ #ourstory, #location, #academies 
+ {padding-top: 10%;
+ padding-bottom: 10%;
+padding-right: 1%;
+padding-left: 1%;}
+
+
+
+/*-----------------------------
+PRODUCTS
+--------------------------------*/
 
 /*VERSION DESKTOP*/
 @media
@@ -560,6 +620,6 @@ nav
 
  #takingcare, #beautyproducts
  {padding-top: 20px;
- padding-bottom: 20px;
+    padding-bottom: 20px;
 padding-right: 1%;
 padding-left: 1%;}
