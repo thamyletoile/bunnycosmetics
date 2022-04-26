@@ -1,0 +1,105 @@
+$black: color black;
+$pink: color #9f476a;   
+
+ /*-----FONDO DEL SITIO-----*/   
+.background{
+    background: $pink}
+
+
+/*---Clases generales - usedforall---*/
+.padding {
+    padding-left: 1%;
+    padding-right: 1%;}
+
+    
+/*-----CONFIGURACION DEL HEADER-----*/
+    header{
+        background-color: $black;}
+    
+    .backgroundbanner{ 
+        background-image:url(https://png.pngtree.com/thumb_back/fw800/back_our/20190628/ourmid/pngtree-black-luxury-perfume-background-banner-image_264575.jpg);
+        background-size: cover;}
+
+    .miley {
+        color: #F844FA;}
+    
+    h3
+    {padding-top: 8px;}
+
+    .alineacioniconos
+    {display : flex; 
+    justify-content: flex-end;
+    align-items:flex-end}
+
+    .iconosredes
+    {width: 25px;
+    height: 40px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 1%;}
+
+    /*-----MENU-----*/
+    ul{background-color:$black;
+            padding-bottom: 2%;
+            padding-top: 2%;
+            display: flex;
+            flex-wrap: wrap;
+            span{display: inline-block;
+                padding-right: 5%;
+                padding-left: 5%;
+                 .menunounderline{
+                    text-decoration: none;
+                    color:#FAB3D4;}}}
+
+                    .onelinemenu
+{display: inline-block; 
+width: 100%;}
+
+/*-----BODY-----*/
+/*Padding for pictures*/
+.paddingpics1
+{max-width: 33%;
+display: inline-block;}
+
+.paddingpics2
+{  max-width: 100%;
+    display: inline-block;}
+
+/*Padding for Paragraphs*/
+.oneline
+{display: inline-flex;}
+
+/*COLORS SECTION*/
+.mitadcolor
+{display:flex;
+width: 50%;}
+
+.oneline
+{display: inline-flex;}
+
+.centrar
+{align-items: center;}
+
+.enddetails
+{padding-bottom: 30px;}
+
+/*FOOTER*/
+
+.diseñopie
+{background-color: black;
+padding-top: 20px;
+padding-left: 5px;
+padding-bottom: 20px;
+ color:  #F844FA;
+font-weight: bold;} 
+
+
+
+
+
+
+                    
+                
+        
+
+    

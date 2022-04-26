@@ -1,0 +1,134 @@
+/*-----GRIDS INDEX*-----/
+/*---VERSION DESKTOP---*/
+
+@media
+(min-width: 1024px){
+
+#grid-area
+{display: grid;
+
+/*BOCETO DE GRILLA*/
+grid-template-areas: 
+"encabezado encabezado"
+"menu menu"
+"beauty beauty"
+"animals animals"
+"colors colors"
+"piepagina piepagina";}
+
+#beauty, #animals, #colors 
+{padding-top: 20px;
+padding-bottom: 20px;}
+
+/*Area Names*/
+header
+{grid-area: encabezado;}
+
+nav
+{grid-area: menu;}
+
+ #beauty
+ {grid-area: beauty;}
+
+ #animals
+ {grid-area: animals;}
+
+ #colors
+ {grid-area: colors;}
+
+ #parrafo
+ {grid-area: parrafo;}
+
+ footer
+ {grid-area: piepagina;}}
+
+
+
+ /*---VERSION TABLET---*/
+ 
+@media
+(min-width:480px) and (max-width: 1023px){
+/*GRIDS INDEX*/
+#grid-area
+{display: grid;
+
+/*BOCETO DE GRILLA*/
+grid-template-areas: 
+"encabezado encabezado"
+"menu menu"
+"beauty beauty"
+"animals animals"
+"colors colors"
+"piepagina piepagina";}
+
+#beauty, #animals, #colors 
+{padding-top: 20px;
+padding-bottom: 20px;}
+
+/*Area Names*/
+header
+{grid-area: encabezado;}
+
+nav
+{grid-area: menu;}
+
+ #beauty
+ {grid-area: beauty;}
+
+ #animals
+ {grid-area: animals;}
+
+ #colors
+ {grid-area: colors;}
+
+ #parrafo
+ {grid-area: parrafo;}
+
+ footer
+ {grid-area: piepagina;}}
+
+
+/*---VERSION MOBILE---*/
+
+@media(max-width: 479px)
+
+/*GRIDS INDEX*/
+{#grid-area
+{display: grid;
+
+/*BOCETO DE GRILLA*/
+grid-template-areas: 
+"encabezado"
+"menu menu"
+"beauty"
+"animals"
+"colors"
+"piepagina";}
+
+#beauty, #animals, #colors  
+{padding-top: 20px;
+padding-bottom: 20px;}
+
+/*Area Names*/
+header
+{grid-area: encabezado;}
+
+nav
+{grid-area: menu;}
+
+ #beauty
+ {grid-area: beauty;}
+
+ #animals
+ {grid-area: animals;}
+
+ #colors
+ {grid-area: colors;}
+
+ #parrafo
+ {grid-area: parrafo;}
+
+ footer
+ {grid-area:piepagina;}}
+
+ 
