@@ -238,4 +238,22 @@ ul span .menunounderline {
   font-weight: bold;
 }
 
+/*CONFIGURACION GENERAL DEL SITIO*/
+/*Fonts
+
+@font-face {
+    font-family: 'playfair';
+    src: url(playfair/PlayfairDisplay-Regular.ttf)}
+
+body{
+    font-family: 'playfair';
+width: 100%;
+height: 100vh;} 
+*/
+/*Margenes*/
+* {
+  margin: 0;
+  padding: 0%;
+}
+
 /*# sourceMappingURL=finale.css.map */
