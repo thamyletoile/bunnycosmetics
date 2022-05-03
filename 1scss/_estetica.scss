@@ -93,6 +93,37 @@ padding-bottom: 20px;
  color:  #F844FA;
 font-weight: bold;} 
 
+/*DESAFIO*/
+
+/*MIXIN*/
+@mixin boxforpictures ($ancho,$alto) {
+    width: $ancho;
+    height: $alto;
+}
+
+.boxpic1 {
+    @include boxforpictures(500px,50opx)};
+
+    .boxpic2{ @include boxforpictures(50%,50%) }
+
+/*EXTEND*/
+.diseñopienuevo{
+@extend .diseñopie;
+color:  blue;
+background-color: turquoise}
+
+/*MAPS*/
+$map:(
+body: #FFF8DC	,	
+main:#E9967A	,	
+footer: #4B0082,);
+
+@each $item, $arcoiris in $map{
+.campo-#{$item}{
+   background-color:$arcoiris }}
+    
+
+
 
 
 

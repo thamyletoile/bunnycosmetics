@@ -1,18 +1,15 @@
 /*CONFIGURACION GENERAL DEL SITIO*/
-/*Fonts
-
+/*Fonts*/
 @font-face {
     font-family: 'playfair';
-    src: url(playfair/PlayfairDisplay-Regular.ttf)}
+    font-style: normal;
+    font-weight: normal;
+src: url(playfair/PlayfairDisplay-Regular.ttf);}
 
 body{
-    font-family: 'playfair';
+/*    font-family: 'playfair';
 width: 100%;
-height: 100vh;} 
-*/
-/*Margenes*/
-*{margin: 0;
-padding: 0%;}    
-
-
-    
+height: 100vh} 
+*
+/*Margenes*/ margin: 0;
+padding: 0%;}

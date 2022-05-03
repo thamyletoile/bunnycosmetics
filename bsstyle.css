@@ -373,13 +373,13 @@ nav
 
 /*CONFIGURACION GENERAL DEL SITIO*/
 /*Fonts*/
-/*@font-face {
+@font-face {
     font-family: 'playfair';
     src: url(playfair/PlayfairDisplay-Regular.ttf)}
-*/
+
 
 body{
-   /* font-family: 'playfair';*/
+font-family: 'playfair';
 width: 100%;
 height: 100vh;} 
 
