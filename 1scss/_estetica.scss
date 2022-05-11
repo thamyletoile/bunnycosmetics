@@ -1,9 +1,23 @@
-$black: color black;
-$pink: color #9f476a;   
+/***COLOR PALETTE***/
+$black: color black; 
+$pink: color  #F5D9E4; /*background*/   
+$bunny: color #F844FA; /*text*/
 
- /*-----FONDO DEL SITIO-----*/   
-.background{
-    background: $pink}
+/*----------CUESTIONES GENERALES SITIO----------*/
+
+/*ESTILOS GENERALES*/
+/*Fonts*/
+body{width: 100%;
+    height: 100vh;} 
+    
+    /*Margenes*/
+    *{margin: 0;
+    padding: 0%;}    
+        
+
+/*-----FONDO DEL SITIO-----*/   
+ .background
+ {background: $pink }
 
 
 /*---Clases generales - usedforall---*/
@@ -11,124 +25,73 @@ $pink: color #9f476a;
     padding-left: 1%;
     padding-right: 1%;}
 
-    
+.alinear {text-align: justify;}
+
+        
+/*Padding repetir*/
+.paddingcarousel
+{padding-bottom: 20px;}
+
+.centrar
+{text-align: center;}
+
 /*-----CONFIGURACION DEL HEADER-----*/
-    header{
-        background-color: $black;}
-    
-    .backgroundbanner{ 
-        background-image:url(https://png.pngtree.com/thumb_back/fw800/back_our/20190628/ourmid/pngtree-black-luxury-perfume-background-banner-image_264575.jpg);
-        background-size: cover;}
+header{
+    background-color: $black;}
 
-    .miley {
-        color: #F844FA;}
-    
-    h3
-    {padding-top: 8px;}
+.backgroundbanner{ 
+    background-image:url(https://png.pngtree.com/thumb_back/fw800/back_our/20190628/ourmid/pngtree-black-luxury-perfume-background-banner-image_264575.jpg);
+    background-size: cover;}
 
-    .alineacioniconos
-    {display : flex; 
-    justify-content: flex-end;
-    align-items:flex-end}
+.miley {
+    color: $bunny;}
 
-    .iconosredes
-    {width: 25px;
-    height: 40px;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-right: 1%;}
+h3
+{padding-top: 8px;}
 
-    /*-----MENU-----*/
-    ul{background-color:$black;
-            padding-bottom: 2%;
-            padding-top: 2%;
-            display: flex;
-            flex-wrap: wrap;
-            span{display: inline-block;
-                padding-right: 5%;
-                padding-left: 5%;
-                 .menunounderline{
-                    text-decoration: none;
-                    color:#FAB3D4;}}}
+/*-----CONFIGURACION DEL MENU-----*/
+ul{background-color:$black;
+        padding-bottom: 2%;
+        padding-top: 2%;
+        display: flex;
+        flex-wrap: wrap;
+        span{display: inline-block;
+            padding-right: 5%;
+            padding-left: 5%;
+             .menunounderline{
+                text-decoration: none;
+                color:#FAB3D4;}}}
 
-                    .onelinemenu
+                .onelinemenu
 {display: inline-block; 
 width: 100%;}
 
-/*-----BODY-----*/
-/*Padding for pictures*/
-.paddingpics1
-{max-width: 33%;
-display: inline-block;}
-
-.paddingpics2
-{  max-width: 100%;
-    display: inline-block;}
-
-/*Padding for Paragraphs*/
-.oneline
-{display: inline-flex;}
-
-/*COLORS SECTION*/
-.mitadcolor
-{display:flex;
-width: 50%;}
-
-.oneline
-{display: inline-flex;}
-
-.centrar
-{align-items: center;}
-
-.enddetails
-{padding-bottom: 30px;}
-
-/*FOOTER*/
+/*-----CONFIGURACION DEL FOOTER-----*/
 
 .diseñopie
 {background-color: black;
 padding-top: 20px;
 padding-left: 5px;
 padding-bottom: 20px;
- color:  #F844FA;
-font-weight: bold;} 
+color:  $bunny;
+font-weight: bold;}
 
-/*DESAFIO*/
+/*PADDING FOR PICTURES*/
+/*Segmento Beauty*/
+.paddingpics1
+{max-width: 33%;
+    display:inline-block;
+padding-top: 15px;
+padding-bottom: 15px;}
 
-/*MIXIN*/
-@mixin boxforpictures ($ancho,$alto) {
-    width: $ancho;
-    height: $alto;
-}
+.paddingpics2
+{  max-width: 90%;
+    display: inline-block;}
 
-.boxpic1 {
-    @include boxforpictures(500px,50opx)};
-
-    .boxpic2{ @include boxforpictures(50%,50%) }
-
-/*EXTEND*/
-.diseñopienuevo{
-@extend .diseñopie;
-color:  blue;
-background-color: turquoise}
-
-/*MAPS*/
-$map:(
-body: #FFF8DC	,	
-main:#E9967A	,	
-footer: #4B0082,);
-
-@each $item, $arcoiris in $map{
-.campo-#{$item}{
-   background-color:$arcoiris }}
-    
-
-
-
-
-
-
-
+    .paddingpics3
+{width: 30%;}
+     
+/**/
                     
                 
         
