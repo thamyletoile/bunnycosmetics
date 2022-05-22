@@ -78,6 +78,31 @@ padding-left: 5%;}
     text-decoration: none;
     color:#FAB3D4;}
 
+/*TABLA*/
+.columna {float:left;width:33%;}
+#contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;}
+  
+  #contenedor > div {
+    width: 50%;}
+
+#contenedor2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#contenedor2 > div {
+  width: 33%;
+}
+
+.paddingparrafo2
+{
+    padding-bottom: 10px
+  }
+
 /*----------
 INDEX BODY
 ---------*/
@@ -595,7 +620,7 @@ align-items:flex-end}
 {width: 30%;}
 
 .paddingpics2
-{ max-width: 45%;
+{ max-width: 50%;
     display:inline-block;
 padding-top: 15px;
 padding-bottom: 15px;}
@@ -979,3 +1004,4 @@ width: 50%;}
 
 .enddetails
 {padding-bottom: 30px;}
+
