@@ -27,6 +27,7 @@
 <body id="grid-area5" class="background"> <!--CONTENIDO DEL SITIO-->
 
     <header id="intro" class="padding backgroundbanner"> <!--primer segmento-->
+      
     
 
         <h1 class="miley display-3">Bunny Cosmetics</h1>
@@ -42,24 +43,19 @@
         </header><!--fin del primer segmento-->
     
         <!--MENU-->
-
-  
-
-
-
-        <nav></nav> 
+        
+     
+        <nav> 
+         <ul class="navbackground" >
+          <span><img src="img/logo.png" class="logito"></span>
+          <span><a class="menunounderline ontop" href="index.html">Home</a></span>
+          <span><a class="menunounderline" href="our company.html">Our Company</a></span>
+          <span><a class="menunounderline" href="products.htm">Products</a></span>
+          <span><a class="menunounderline" href="sustaintability policies.html">Sustaintability Policies</a></span>
+          <span><a class="menunounderline" href="contact us.html">Contact Us</a></span>
+           </ul>
+      </nav>
     
-    <ul class="navbackground" >
-    <span><a class="menunounderline" href="index.html">Home</a></span>
-    <span><a class="menunounderline" href="our company.html">Our Company</a></span>
-    <span><a class="menunounderline" href="products.htm">Products</a></span>
-    <span><a class="menunounderline" href="sustaintability policies.html">Sustaintability Policies</a></span>
-    <span><a class="menunounderline" href="contact us.html">Contact Us</a></span>
-    
-    </ul>
-
-    
-
 
 </header><!--fin del primer segmento-->
 
@@ -74,27 +70,25 @@
         <h1 class="textform marginform"><strong>Contact Us</strong></h1>
 
         <form class="marginform">
-            <label for="name">Name</label>	
-            <input type="text" name="Name"/><br>
-                        
-                <label for="surname">Surname</label>	
-                <input type="text" name="Surname"/> <br>
-                
+            <label for="name">Name & Surname</label>	
+            <input type="text" name="Name"/>
+                   
                 <label for="email">Email Adress</label>	
-                <input type="email" name="email"/> <br><br>
+                <input type="email" name="email"/> 
+
+                <label for="country">Continent</label>
+    <select id="country" name="country">
+      <option value="australia">Europe</option>
+      <option value="canada">America</option>
+      <option value="usa">Asia</option>
+    </select>
                                 
 
                     <label for="Comentarios">Comentarios</label><br>
-                    <textarea name="Comentarios" cols="30" rows="10"></textarea> <br>
-
-                    <input type="checkbox" name="Yes" value="1" class="textform2">
-                    <div class="textform2">Suscribe our mailing list</div><br>
-                    
-
+                    <textarea name="Comentarios" cols="30" rows="10"></textarea>
+              
                     <input type="submit" value="Submit">
-                    <input type="reset" value="Reset">
-
-</form>                
+                    </form>                
  
 </section>
 
